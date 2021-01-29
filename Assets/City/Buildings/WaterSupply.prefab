@@ -91,6 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8374325507259111707}
   - component: {fileID: 1852753937406705099}
+  - component: {fileID: 6298452194764861464}
   m_Layer: 0
   m_Name: WaterSupply
   m_TagString: Untagged
@@ -127,3 +128,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Info: {fileID: 11400000, guid: 92498cd1e6028fb40a68762e4bbc7f0d, type: 2}
   Pivot: {fileID: 4754805767019274294}
+--- !u!114 &6298452194764861464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2978755256362454608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a39ad6f953264c478de3b57b9c04b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ServiceWalkers:
+    Prefab: {fileID: 6441665909989466860, guid: 189a337c2acbe904c9a2ece0d0afe9a6,
+      type: 3}
+    Count: 1
+    Reuse: 1
+    Downtime: 5
