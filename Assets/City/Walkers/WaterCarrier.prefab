@@ -89,7 +89,7 @@ MonoBehaviour:
   ReturnHome: 1
   Area: 1
   IsCross: 0
-  Service: {fileID: 0}
+  Service: {fileID: 11400000, guid: 0e57475979669f94e932c0e02a572f69, type: 2}
   Amount: 100
 --- !u!1 &3918464235304288219
 GameObject:

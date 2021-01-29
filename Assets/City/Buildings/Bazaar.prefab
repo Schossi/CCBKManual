@@ -157,4 +157,4 @@ MonoBehaviour:
     Count: 1
     Reuse: 1
     Downtime: 5
-  MinimumOrder: 0
+  MinimumOrder: 2

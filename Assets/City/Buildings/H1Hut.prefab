@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 8374325507259111707}
   - component: {fileID: 1852753937406705099}
   - component: {fileID: -6782147267721386154}
+  - component: {fileID: -4070802273015446489}
   m_Layer: 0
   m_Name: H1Hut
   m_TagString: Untagged
@@ -143,3 +144,21 @@ MonoBehaviour:
   PopulationHousings:
   - Population: {fileID: 11400000, guid: 2723bac22eef92e44a9d504c586b8094, type: 2}
     Capacity: 20
+--- !u!114 &-4070802273015446489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2978755256362454608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1329080cd280c9e469fcf3d42b7dec0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EvolutionSequence: {fileID: 11400000, guid: dafec216875c911439c4028e46702a7b, type: 2}
+  ServiceRecipients:
+  - Service: {fileID: 11400000, guid: 0e57475979669f94e932c0e02a572f69, type: 2}
+    LossPerSecond: 5
+  ItemsRecipients: []
+  ItemsCategoryRecipients: []
