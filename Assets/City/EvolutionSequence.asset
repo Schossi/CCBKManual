@@ -12,7 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7b70f3ce801ea40b31473749ffa3df, type: 3}
   m_Name: EvolutionSequence
   m_EditorClassIdentifier: 
-  Stages: []
+  Stages:
+  - BuildingInfo: {fileID: 11400000, guid: e126cfa1b563cc94eb65542d1dab6316, type: 2}
+    Services: []
+    Items: []
+    ItemCategoryRequirements: []
+    LayerRequirements: []
+  - BuildingInfo: {fileID: 11400000, guid: 5f5dc9f146a8b0445906ed916f8a4b49, type: 2}
+    Services:
+    - {fileID: 11400000, guid: 0e57475979669f94e932c0e02a572f69, type: 2}
+    Items: []
+    ItemCategoryRequirements: []
+    LayerRequirements: []
+  - BuildingInfo: {fileID: 11400000, guid: a184d43232a0a8e4e84bb3073abe8b74, type: 2}
+    Services: []
+    Items:
+    - {fileID: 11400000, guid: 4588cb5495c8b4040ae54878565c5fe1, type: 2}
+    ItemCategoryRequirements: []
+    LayerRequirements: []
   EvolvedDescription: 
   EvolutionDescription: 
   Description: 

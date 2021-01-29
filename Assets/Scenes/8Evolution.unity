@@ -868,7 +868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Addons: {fileID: 0}
-  Buildings: {fileID: 0}
+  Buildings: {fileID: 11400000, guid: 35453394d62f96347b59a8069cf9fed2, type: 2}
   Items: {fileID: 0}
   Populations: {fileID: 0}
   Roads: {fileID: 0}
