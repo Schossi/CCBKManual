@@ -22,4 +22,7 @@ MonoBehaviour:
   AccessType: 0
   AccessPoint: {x: 0, y: 0}
   Cost: []
-  LayerRequirements: []
+  LayerRequirements:
+  - Layer: {fileID: 11400000, guid: 9953ae8ce40f7a245bd01fe862bb7664, type: 2}
+    MinValue: 5
+    MaxValue: 100
