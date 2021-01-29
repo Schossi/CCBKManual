@@ -331,7 +331,6 @@ GameObject:
   m_Component:
   - component: {fileID: 259788413}
   - component: {fileID: 259788412}
-  - component: {fileID: 259788414}
   - component: {fileID: 259788415}
   m_Layer: 0
   m_Name: Logic
@@ -366,23 +365,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &259788414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 259788411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d2196288e66e3346851d13c5621c6ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ItemStorage:
-    Mode: 3
-    StackCount: 0
-    Capacity: 1
-  StartItems: []
 --- !u!114 &259788415
 MonoBehaviour:
   m_ObjectHideFlags: 0
